@@ -32,3 +32,23 @@
     width: 100%;
 
 }
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+    padding-top: 20px;
+    height: auto; /* allow it to grow naturally */
+  }
+  .high {
+  position: relative;
+  z-index: 1;
+}
+
+  .lights {
+    top:30 px;       /* adjust vertical position */
+    left: 59%;       /* center more nicely */
+    font-size: 19px; /* smaller font for mobile */
+  }
+}
